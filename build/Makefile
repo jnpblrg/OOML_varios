@@ -111,6 +111,19 @@ base/fast:
 	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/build
 .PHONY : base/fast
 
+#=============================================================================
+# Target rules for targets named soportegolf
+
+# Build rule for target.
+soportegolf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 soportegolf
+.PHONY : soportegolf
+
+# fast build rule for target.
+soportegolf/fast:
+	$(MAKE) -f CMakeFiles/soportegolf.dir/build.make CMakeFiles/soportegolf.dir/build
+.PHONY : soportegolf/fast
+
 base.o: base.cpp.o
 .PHONY : base.o
 
@@ -135,6 +148,30 @@ base.cpp.s:
 	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/base.cpp.s
 .PHONY : base.cpp.s
 
+soportegolf.o: soportegolf.cpp.o
+.PHONY : soportegolf.o
+
+# target to build an object file
+soportegolf.cpp.o:
+	$(MAKE) -f CMakeFiles/soportegolf.dir/build.make CMakeFiles/soportegolf.dir/soportegolf.cpp.o
+.PHONY : soportegolf.cpp.o
+
+soportegolf.i: soportegolf.cpp.i
+.PHONY : soportegolf.i
+
+# target to preprocess a source file
+soportegolf.cpp.i:
+	$(MAKE) -f CMakeFiles/soportegolf.dir/build.make CMakeFiles/soportegolf.dir/soportegolf.cpp.i
+.PHONY : soportegolf.cpp.i
+
+soportegolf.s: soportegolf.cpp.s
+.PHONY : soportegolf.s
+
+# target to generate assembly for a file
+soportegolf.cpp.s:
+	$(MAKE) -f CMakeFiles/soportegolf.dir/build.make CMakeFiles/soportegolf.dir/soportegolf.cpp.s
+.PHONY : soportegolf.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -144,9 +181,13 @@ help:
 	@echo "... base"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... soportegolf"
 	@echo "... base.o"
 	@echo "... base.i"
 	@echo "... base.s"
+	@echo "... soportegolf.o"
+	@echo "... soportegolf.i"
+	@echo "... soportegolf.s"
 .PHONY : help
 
 

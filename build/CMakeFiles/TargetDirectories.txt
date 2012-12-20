@@ -1,1 +1,2 @@
 /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles/base.dir
+/home/juanpa/ooml_things/OOML_varios/build/CMakeFiles/soportegolf.dir
