@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/juanpa/ooml_things/OOML_varios/soportegolf.cpp
+ooml/core.h
+-
+ooml/components.h
+-
+ooml/parts.h
+-
+fstream
+-
+iostream
+-
+

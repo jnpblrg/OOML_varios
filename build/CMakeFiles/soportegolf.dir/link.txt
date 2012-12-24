@@ -1,0 +1,1 @@
+/usr/bin/c++    -g -ggdb    CMakeFiles/soportegolf.dir/soportegolf.cpp.o  -o ../bin/soportegolf -rdynamic -lOOMLCore -lOOMLComponents -lOOMLParts 
