@@ -2,7 +2,7 @@
 cmake_minimum_required (VERSION 2.6)
  
 #Name of the project
-project (multiXtruder)
+project (OOML_Varios)
  
 #Compile in Debug Mode. Allows to make debug.
 SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -ggdb")
@@ -20,20 +20,22 @@ INCLUDE_DIRECTORIES("/usr/include/ooml")
 #Set a variable with the name of the cpp source files of your application
 SET(BASE_FILES base.cpp)
 SET(SOPORTEGOLF_FILES soportegolf.cpp)
-
+SET(PIEZACUNA_FILES piezacuna.cpp)
 
 #Set a variable with the name of your application
 SET(BASE_NAME base)
 SET(SOPORTEGOLF_NAME soportegolf)
-
+SET(PIEZACUNA_NAME piezacuna)
  
 #Create and link the executable
 ADD_EXECUTABLE(${BASE_NAME} ${BASE_FILES})
 ADD_EXECUTABLE(${SOPORTEGOLF_NAME} ${SOPORTEGOLF_FILES})
+ADD_EXECUTABLE(${PIEZACUNA_NAME} ${PIEZACUNA_FILES})
 
 
 TARGET_LINK_LIBRARIES(${BASE_NAME} OOMLCore OOMLComponents OOMLParts)
 TARGET_LINK_LIBRARIES(${SOPORTEGOLF_NAME} OOMLCore OOMLComponents OOMLParts)
+TARGET_LINK_LIBRARIES(${PIEZACUNA_NAME} OOMLCore OOMLComponents OOMLParts)
 
 
 

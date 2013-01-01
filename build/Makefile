@@ -112,6 +112,19 @@ base/fast:
 .PHONY : base/fast
 
 #=============================================================================
+# Target rules for targets named piezacuna
+
+# Build rule for target.
+piezacuna: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 piezacuna
+.PHONY : piezacuna
+
+# fast build rule for target.
+piezacuna/fast:
+	$(MAKE) -f CMakeFiles/piezacuna.dir/build.make CMakeFiles/piezacuna.dir/build
+.PHONY : piezacuna/fast
+
+#=============================================================================
 # Target rules for targets named soportegolf
 
 # Build rule for target.
@@ -148,6 +161,30 @@ base.cpp.s:
 	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/base.cpp.s
 .PHONY : base.cpp.s
 
+piezacuna.o: piezacuna.cpp.o
+.PHONY : piezacuna.o
+
+# target to build an object file
+piezacuna.cpp.o:
+	$(MAKE) -f CMakeFiles/piezacuna.dir/build.make CMakeFiles/piezacuna.dir/piezacuna.cpp.o
+.PHONY : piezacuna.cpp.o
+
+piezacuna.i: piezacuna.cpp.i
+.PHONY : piezacuna.i
+
+# target to preprocess a source file
+piezacuna.cpp.i:
+	$(MAKE) -f CMakeFiles/piezacuna.dir/build.make CMakeFiles/piezacuna.dir/piezacuna.cpp.i
+.PHONY : piezacuna.cpp.i
+
+piezacuna.s: piezacuna.cpp.s
+.PHONY : piezacuna.s
+
+# target to generate assembly for a file
+piezacuna.cpp.s:
+	$(MAKE) -f CMakeFiles/piezacuna.dir/build.make CMakeFiles/piezacuna.dir/piezacuna.cpp.s
+.PHONY : piezacuna.cpp.s
+
 soportegolf.o: soportegolf.cpp.o
 .PHONY : soportegolf.o
 
@@ -180,11 +217,15 @@ help:
 	@echo "... depend"
 	@echo "... base"
 	@echo "... edit_cache"
+	@echo "... piezacuna"
 	@echo "... rebuild_cache"
 	@echo "... soportegolf"
 	@echo "... base.o"
 	@echo "... base.i"
 	@echo "... base.s"
+	@echo "... piezacuna.o"
+	@echo "... piezacuna.i"
+	@echo "... piezacuna.s"
 	@echo "... soportegolf.o"
 	@echo "... soportegolf.i"
 	@echo "... soportegolf.s"
