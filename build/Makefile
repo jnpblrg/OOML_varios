@@ -112,6 +112,19 @@ base/fast:
 .PHONY : base/fast
 
 #=============================================================================
+# Target rules for targets named pastillero
+
+# Build rule for target.
+pastillero: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pastillero
+.PHONY : pastillero
+
+# fast build rule for target.
+pastillero/fast:
+	$(MAKE) -f CMakeFiles/pastillero.dir/build.make CMakeFiles/pastillero.dir/build
+.PHONY : pastillero/fast
+
+#=============================================================================
 # Target rules for targets named piezacuna
 
 # Build rule for target.
@@ -160,6 +173,30 @@ base.s: base.cpp.s
 base.cpp.s:
 	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/base.cpp.s
 .PHONY : base.cpp.s
+
+pastillero.o: pastillero.cpp.o
+.PHONY : pastillero.o
+
+# target to build an object file
+pastillero.cpp.o:
+	$(MAKE) -f CMakeFiles/pastillero.dir/build.make CMakeFiles/pastillero.dir/pastillero.cpp.o
+.PHONY : pastillero.cpp.o
+
+pastillero.i: pastillero.cpp.i
+.PHONY : pastillero.i
+
+# target to preprocess a source file
+pastillero.cpp.i:
+	$(MAKE) -f CMakeFiles/pastillero.dir/build.make CMakeFiles/pastillero.dir/pastillero.cpp.i
+.PHONY : pastillero.cpp.i
+
+pastillero.s: pastillero.cpp.s
+.PHONY : pastillero.s
+
+# target to generate assembly for a file
+pastillero.cpp.s:
+	$(MAKE) -f CMakeFiles/pastillero.dir/build.make CMakeFiles/pastillero.dir/pastillero.cpp.s
+.PHONY : pastillero.cpp.s
 
 piezacuna.o: piezacuna.cpp.o
 .PHONY : piezacuna.o
@@ -217,12 +254,16 @@ help:
 	@echo "... depend"
 	@echo "... base"
 	@echo "... edit_cache"
+	@echo "... pastillero"
 	@echo "... piezacuna"
 	@echo "... rebuild_cache"
 	@echo "... soportegolf"
 	@echo "... base.o"
 	@echo "... base.i"
 	@echo "... base.s"
+	@echo "... pastillero.o"
+	@echo "... pastillero.i"
+	@echo "... pastillero.s"
 	@echo "... piezacuna.o"
 	@echo "... piezacuna.i"
 	@echo "... piezacuna.s"

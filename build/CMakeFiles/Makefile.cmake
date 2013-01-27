@@ -42,6 +42,7 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 SET(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/base.dir/DependInfo.cmake"
+  "CMakeFiles/pastillero.dir/DependInfo.cmake"
   "CMakeFiles/piezacuna.dir/DependInfo.cmake"
   "CMakeFiles/soportegolf.dir/DependInfo.cmake"
   )

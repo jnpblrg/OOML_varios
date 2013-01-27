@@ -88,13 +88,48 @@ clean: CMakeFiles/base.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/pastillero.dir
+
+# All Build rule for target.
+CMakeFiles/pastillero.dir/all:
+	$(MAKE) -f CMakeFiles/pastillero.dir/build.make CMakeFiles/pastillero.dir/depend
+	$(MAKE) -f CMakeFiles/pastillero.dir/build.make CMakeFiles/pastillero.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles  2
+	@echo "Built target pastillero"
+.PHONY : CMakeFiles/pastillero.dir/all
+
+# Include target in all.
+all: CMakeFiles/pastillero.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pastillero.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pastillero.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles 0
+.PHONY : CMakeFiles/pastillero.dir/rule
+
+# Convenience name for target.
+pastillero: CMakeFiles/pastillero.dir/rule
+.PHONY : pastillero
+
+# clean rule for target.
+CMakeFiles/pastillero.dir/clean:
+	$(MAKE) -f CMakeFiles/pastillero.dir/build.make CMakeFiles/pastillero.dir/clean
+.PHONY : CMakeFiles/pastillero.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/pastillero.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/piezacuna.dir
 
 # All Build rule for target.
 CMakeFiles/piezacuna.dir/all:
 	$(MAKE) -f CMakeFiles/piezacuna.dir/build.make CMakeFiles/piezacuna.dir/depend
 	$(MAKE) -f CMakeFiles/piezacuna.dir/build.make CMakeFiles/piezacuna.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles  3
 	@echo "Built target piezacuna"
 .PHONY : CMakeFiles/piezacuna.dir/all
 
@@ -129,7 +164,7 @@ clean: CMakeFiles/piezacuna.dir/clean
 CMakeFiles/soportegolf.dir/all:
 	$(MAKE) -f CMakeFiles/soportegolf.dir/build.make CMakeFiles/soportegolf.dir/depend
 	$(MAKE) -f CMakeFiles/soportegolf.dir/build.make CMakeFiles/soportegolf.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles  4
 	@echo "Built target soportegolf"
 .PHONY : CMakeFiles/soportegolf.dir/all
 
