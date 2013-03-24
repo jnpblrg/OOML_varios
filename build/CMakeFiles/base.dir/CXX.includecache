@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/juanpa/ooml_things/OOML_varios/base.cpp
+/home/juanpa/ooml_varios/OOML_varios/base.cpp
 ooml/core.h
 -
 ooml/components.h

@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/juanpa/ooml_things/OOML_varios/soportegolf.cpp" "/home/juanpa/ooml_things/OOML_varios/build/CMakeFiles/soportegolf.dir/soportegolf.cpp.o"
+  "/home/juanpa/ooml_varios/OOML_varios/soportegolf.cpp" "/home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/soportegolf.dir/soportegolf.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

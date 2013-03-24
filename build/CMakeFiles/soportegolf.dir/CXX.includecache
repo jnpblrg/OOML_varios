@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/juanpa/ooml_things/OOML_varios/soportegolf.cpp
+/home/juanpa/ooml_varios/OOML_varios/soportegolf.cpp
 ooml/core.h
 -
 ooml/components.h

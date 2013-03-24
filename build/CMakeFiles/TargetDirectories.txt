@@ -1,4 +1,5 @@
-/home/juanpa/ooml_things/OOML_varios/build/CMakeFiles/base.dir
-/home/juanpa/ooml_things/OOML_varios/build/CMakeFiles/pastillero.dir
-/home/juanpa/ooml_things/OOML_varios/build/CMakeFiles/piezacuna.dir
-/home/juanpa/ooml_things/OOML_varios/build/CMakeFiles/soportegolf.dir
+/home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/base.dir
+/home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/espejo.dir
+/home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/pastillero.dir
+/home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/piezacuna.dir
+/home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/soportegolf.dir

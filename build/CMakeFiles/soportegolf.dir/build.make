@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/juanpa/ooml_things/OOML_varios
+CMAKE_SOURCE_DIR = /home/juanpa/ooml_varios/OOML_varios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/juanpa/ooml_things/OOML_varios/build
+CMAKE_BINARY_DIR = /home/juanpa/ooml_varios/OOML_varios/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/soportegolf.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/soportegolf.dir/flags.make
 
 CMakeFiles/soportegolf.dir/soportegolf.cpp.o: CMakeFiles/soportegolf.dir/flags.make
 CMakeFiles/soportegolf.dir/soportegolf.cpp.o: ../soportegolf.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/soportegolf.dir/soportegolf.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/soportegolf.dir/soportegolf.cpp.o -c /home/juanpa/ooml_things/OOML_varios/soportegolf.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/soportegolf.dir/soportegolf.cpp.o -c /home/juanpa/ooml_varios/OOML_varios/soportegolf.cpp
 
 CMakeFiles/soportegolf.dir/soportegolf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/soportegolf.dir/soportegolf.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/juanpa/ooml_things/OOML_varios/soportegolf.cpp > CMakeFiles/soportegolf.dir/soportegolf.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/juanpa/ooml_varios/OOML_varios/soportegolf.cpp > CMakeFiles/soportegolf.dir/soportegolf.cpp.i
 
 CMakeFiles/soportegolf.dir/soportegolf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/soportegolf.dir/soportegolf.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/juanpa/ooml_things/OOML_varios/soportegolf.cpp -o CMakeFiles/soportegolf.dir/soportegolf.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/juanpa/ooml_varios/OOML_varios/soportegolf.cpp -o CMakeFiles/soportegolf.dir/soportegolf.cpp.s
 
 CMakeFiles/soportegolf.dir/soportegolf.cpp.o.requires:
 .PHONY : CMakeFiles/soportegolf.dir/soportegolf.cpp.o.requires
@@ -97,6 +97,6 @@ CMakeFiles/soportegolf.dir/clean:
 .PHONY : CMakeFiles/soportegolf.dir/clean
 
 CMakeFiles/soportegolf.dir/depend:
-	cd /home/juanpa/ooml_things/OOML_varios/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juanpa/ooml_things/OOML_varios /home/juanpa/ooml_things/OOML_varios /home/juanpa/ooml_things/OOML_varios/build /home/juanpa/ooml_things/OOML_varios/build /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles/soportegolf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/juanpa/ooml_varios/OOML_varios/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juanpa/ooml_varios/OOML_varios /home/juanpa/ooml_varios/OOML_varios /home/juanpa/ooml_varios/OOML_varios/build /home/juanpa/ooml_varios/OOML_varios/build /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/soportegolf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/soportegolf.dir/depend
 

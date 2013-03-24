@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/juanpa/ooml_things/OOML_varios
+CMAKE_SOURCE_DIR = /home/juanpa/ooml_varios/OOML_varios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/juanpa/ooml_things/OOML_varios/build
+CMAKE_BINARY_DIR = /home/juanpa/ooml_varios/OOML_varios/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/base.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/juanpa/ooml_things/OOML_varios/build
 CMakeFiles/base.dir/all:
 	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/depend
 	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  1
 	@echo "Built target base"
 .PHONY : CMakeFiles/base.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/base.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/base.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/base.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 0
 .PHONY : CMakeFiles/base.dir/rule
 
 # Convenience name for target.
@@ -88,13 +88,48 @@ clean: CMakeFiles/base.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/espejo.dir
+
+# All Build rule for target.
+CMakeFiles/espejo.dir/all:
+	$(MAKE) -f CMakeFiles/espejo.dir/build.make CMakeFiles/espejo.dir/depend
+	$(MAKE) -f CMakeFiles/espejo.dir/build.make CMakeFiles/espejo.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  2
+	@echo "Built target espejo"
+.PHONY : CMakeFiles/espejo.dir/all
+
+# Include target in all.
+all: CMakeFiles/espejo.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/espejo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/espejo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 0
+.PHONY : CMakeFiles/espejo.dir/rule
+
+# Convenience name for target.
+espejo: CMakeFiles/espejo.dir/rule
+.PHONY : espejo
+
+# clean rule for target.
+CMakeFiles/espejo.dir/clean:
+	$(MAKE) -f CMakeFiles/espejo.dir/build.make CMakeFiles/espejo.dir/clean
+.PHONY : CMakeFiles/espejo.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/espejo.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/pastillero.dir
 
 # All Build rule for target.
 CMakeFiles/pastillero.dir/all:
 	$(MAKE) -f CMakeFiles/pastillero.dir/build.make CMakeFiles/pastillero.dir/depend
 	$(MAKE) -f CMakeFiles/pastillero.dir/build.make CMakeFiles/pastillero.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  3
 	@echo "Built target pastillero"
 .PHONY : CMakeFiles/pastillero.dir/all
 
@@ -104,9 +139,9 @@ all: CMakeFiles/pastillero.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pastillero.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pastillero.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 0
 .PHONY : CMakeFiles/pastillero.dir/rule
 
 # Convenience name for target.
@@ -129,7 +164,7 @@ clean: CMakeFiles/pastillero.dir/clean
 CMakeFiles/piezacuna.dir/all:
 	$(MAKE) -f CMakeFiles/piezacuna.dir/build.make CMakeFiles/piezacuna.dir/depend
 	$(MAKE) -f CMakeFiles/piezacuna.dir/build.make CMakeFiles/piezacuna.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  4
 	@echo "Built target piezacuna"
 .PHONY : CMakeFiles/piezacuna.dir/all
 
@@ -139,9 +174,9 @@ all: CMakeFiles/piezacuna.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/piezacuna.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/piezacuna.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 0
 .PHONY : CMakeFiles/piezacuna.dir/rule
 
 # Convenience name for target.
@@ -164,7 +199,7 @@ clean: CMakeFiles/piezacuna.dir/clean
 CMakeFiles/soportegolf.dir/all:
 	$(MAKE) -f CMakeFiles/soportegolf.dir/build.make CMakeFiles/soportegolf.dir/depend
 	$(MAKE) -f CMakeFiles/soportegolf.dir/build.make CMakeFiles/soportegolf.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  5
 	@echo "Built target soportegolf"
 .PHONY : CMakeFiles/soportegolf.dir/all
 
@@ -174,9 +209,9 @@ all: CMakeFiles/soportegolf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/soportegolf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/soportegolf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 0
 .PHONY : CMakeFiles/soportegolf.dir/rule
 
 # Convenience name for target.

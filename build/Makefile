@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/juanpa/ooml_things/OOML_varios
+CMAKE_SOURCE_DIR = /home/juanpa/ooml_varios/OOML_varios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/juanpa/ooml_things/OOML_varios/build
+CMAKE_BINARY_DIR = /home/juanpa/ooml_varios/OOML_varios/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_things/OOML_varios/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,6 +110,19 @@ base: cmake_check_build_system
 base/fast:
 	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/build
 .PHONY : base/fast
+
+#=============================================================================
+# Target rules for targets named espejo
+
+# Build rule for target.
+espejo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 espejo
+.PHONY : espejo
+
+# fast build rule for target.
+espejo/fast:
+	$(MAKE) -f CMakeFiles/espejo.dir/build.make CMakeFiles/espejo.dir/build
+.PHONY : espejo/fast
 
 #=============================================================================
 # Target rules for targets named pastillero
@@ -173,6 +186,30 @@ base.s: base.cpp.s
 base.cpp.s:
 	$(MAKE) -f CMakeFiles/base.dir/build.make CMakeFiles/base.dir/base.cpp.s
 .PHONY : base.cpp.s
+
+espejo.o: espejo.cpp.o
+.PHONY : espejo.o
+
+# target to build an object file
+espejo.cpp.o:
+	$(MAKE) -f CMakeFiles/espejo.dir/build.make CMakeFiles/espejo.dir/espejo.cpp.o
+.PHONY : espejo.cpp.o
+
+espejo.i: espejo.cpp.i
+.PHONY : espejo.i
+
+# target to preprocess a source file
+espejo.cpp.i:
+	$(MAKE) -f CMakeFiles/espejo.dir/build.make CMakeFiles/espejo.dir/espejo.cpp.i
+.PHONY : espejo.cpp.i
+
+espejo.s: espejo.cpp.s
+.PHONY : espejo.s
+
+# target to generate assembly for a file
+espejo.cpp.s:
+	$(MAKE) -f CMakeFiles/espejo.dir/build.make CMakeFiles/espejo.dir/espejo.cpp.s
+.PHONY : espejo.cpp.s
 
 pastillero.o: pastillero.cpp.o
 .PHONY : pastillero.o
@@ -254,6 +291,7 @@ help:
 	@echo "... depend"
 	@echo "... base"
 	@echo "... edit_cache"
+	@echo "... espejo"
 	@echo "... pastillero"
 	@echo "... piezacuna"
 	@echo "... rebuild_cache"
@@ -261,6 +299,9 @@ help:
 	@echo "... base.o"
 	@echo "... base.i"
 	@echo "... base.s"
+	@echo "... espejo.o"
+	@echo "... espejo.i"
+	@echo "... espejo.s"
 	@echo "... pastillero.o"
 	@echo "... pastillero.i"
 	@echo "... pastillero.s"
