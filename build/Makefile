@@ -125,6 +125,19 @@ espejo/fast:
 .PHONY : espejo/fast
 
 #=============================================================================
+# Target rules for targets named palometa_baca
+
+# Build rule for target.
+palometa_baca: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 palometa_baca
+.PHONY : palometa_baca
+
+# fast build rule for target.
+palometa_baca/fast:
+	$(MAKE) -f CMakeFiles/palometa_baca.dir/build.make CMakeFiles/palometa_baca.dir/build
+.PHONY : palometa_baca/fast
+
+#=============================================================================
 # Target rules for targets named pastillero
 
 # Build rule for target.
@@ -211,6 +224,30 @@ espejo.cpp.s:
 	$(MAKE) -f CMakeFiles/espejo.dir/build.make CMakeFiles/espejo.dir/espejo.cpp.s
 .PHONY : espejo.cpp.s
 
+palometa_baca.o: palometa_baca.cpp.o
+.PHONY : palometa_baca.o
+
+# target to build an object file
+palometa_baca.cpp.o:
+	$(MAKE) -f CMakeFiles/palometa_baca.dir/build.make CMakeFiles/palometa_baca.dir/palometa_baca.cpp.o
+.PHONY : palometa_baca.cpp.o
+
+palometa_baca.i: palometa_baca.cpp.i
+.PHONY : palometa_baca.i
+
+# target to preprocess a source file
+palometa_baca.cpp.i:
+	$(MAKE) -f CMakeFiles/palometa_baca.dir/build.make CMakeFiles/palometa_baca.dir/palometa_baca.cpp.i
+.PHONY : palometa_baca.cpp.i
+
+palometa_baca.s: palometa_baca.cpp.s
+.PHONY : palometa_baca.s
+
+# target to generate assembly for a file
+palometa_baca.cpp.s:
+	$(MAKE) -f CMakeFiles/palometa_baca.dir/build.make CMakeFiles/palometa_baca.dir/palometa_baca.cpp.s
+.PHONY : palometa_baca.cpp.s
+
 pastillero.o: pastillero.cpp.o
 .PHONY : pastillero.o
 
@@ -292,6 +329,7 @@ help:
 	@echo "... base"
 	@echo "... edit_cache"
 	@echo "... espejo"
+	@echo "... palometa_baca"
 	@echo "... pastillero"
 	@echo "... piezacuna"
 	@echo "... rebuild_cache"
@@ -302,6 +340,9 @@ help:
 	@echo "... espejo.o"
 	@echo "... espejo.i"
 	@echo "... espejo.s"
+	@echo "... palometa_baca.o"
+	@echo "... palometa_baca.i"
+	@echo "... palometa_baca.s"
 	@echo "... pastillero.o"
 	@echo "... pastillero.i"
 	@echo "... pastillero.s"
