@@ -151,6 +151,19 @@ pastillero/fast:
 .PHONY : pastillero/fast
 
 #=============================================================================
+# Target rules for targets named percha
+
+# Build rule for target.
+percha: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 percha
+.PHONY : percha
+
+# fast build rule for target.
+percha/fast:
+	$(MAKE) -f CMakeFiles/percha.dir/build.make CMakeFiles/percha.dir/build
+.PHONY : percha/fast
+
+#=============================================================================
 # Target rules for targets named piezacuna
 
 # Build rule for target.
@@ -272,6 +285,30 @@ pastillero.cpp.s:
 	$(MAKE) -f CMakeFiles/pastillero.dir/build.make CMakeFiles/pastillero.dir/pastillero.cpp.s
 .PHONY : pastillero.cpp.s
 
+percha.o: percha.cpp.o
+.PHONY : percha.o
+
+# target to build an object file
+percha.cpp.o:
+	$(MAKE) -f CMakeFiles/percha.dir/build.make CMakeFiles/percha.dir/percha.cpp.o
+.PHONY : percha.cpp.o
+
+percha.i: percha.cpp.i
+.PHONY : percha.i
+
+# target to preprocess a source file
+percha.cpp.i:
+	$(MAKE) -f CMakeFiles/percha.dir/build.make CMakeFiles/percha.dir/percha.cpp.i
+.PHONY : percha.cpp.i
+
+percha.s: percha.cpp.s
+.PHONY : percha.s
+
+# target to generate assembly for a file
+percha.cpp.s:
+	$(MAKE) -f CMakeFiles/percha.dir/build.make CMakeFiles/percha.dir/percha.cpp.s
+.PHONY : percha.cpp.s
+
 piezacuna.o: piezacuna.cpp.o
 .PHONY : piezacuna.o
 
@@ -331,6 +368,7 @@ help:
 	@echo "... espejo"
 	@echo "... palometa_baca"
 	@echo "... pastillero"
+	@echo "... percha"
 	@echo "... piezacuna"
 	@echo "... rebuild_cache"
 	@echo "... soportegolf"
@@ -346,6 +384,9 @@ help:
 	@echo "... pastillero.o"
 	@echo "... pastillero.i"
 	@echo "... pastillero.s"
+	@echo "... percha.o"
+	@echo "... percha.i"
+	@echo "... percha.s"
 	@echo "... piezacuna.o"
 	@echo "... piezacuna.i"
 	@echo "... piezacuna.s"
