@@ -48,4 +48,5 @@ SET(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/percha.dir/DependInfo.cmake"
   "CMakeFiles/piezacuna.dir/DependInfo.cmake"
   "CMakeFiles/soportegolf.dir/DependInfo.cmake"
+  "CMakeFiles/ventilador.dir/DependInfo.cmake"
   )

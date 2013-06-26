@@ -189,6 +189,19 @@ soportegolf/fast:
 	$(MAKE) -f CMakeFiles/soportegolf.dir/build.make CMakeFiles/soportegolf.dir/build
 .PHONY : soportegolf/fast
 
+#=============================================================================
+# Target rules for targets named ventilador
+
+# Build rule for target.
+ventilador: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ventilador
+.PHONY : ventilador
+
+# fast build rule for target.
+ventilador/fast:
+	$(MAKE) -f CMakeFiles/ventilador.dir/build.make CMakeFiles/ventilador.dir/build
+.PHONY : ventilador/fast
+
 base.o: base.cpp.o
 .PHONY : base.o
 
@@ -357,6 +370,30 @@ soportegolf.cpp.s:
 	$(MAKE) -f CMakeFiles/soportegolf.dir/build.make CMakeFiles/soportegolf.dir/soportegolf.cpp.s
 .PHONY : soportegolf.cpp.s
 
+ventilador.o: ventilador.cpp.o
+.PHONY : ventilador.o
+
+# target to build an object file
+ventilador.cpp.o:
+	$(MAKE) -f CMakeFiles/ventilador.dir/build.make CMakeFiles/ventilador.dir/ventilador.cpp.o
+.PHONY : ventilador.cpp.o
+
+ventilador.i: ventilador.cpp.i
+.PHONY : ventilador.i
+
+# target to preprocess a source file
+ventilador.cpp.i:
+	$(MAKE) -f CMakeFiles/ventilador.dir/build.make CMakeFiles/ventilador.dir/ventilador.cpp.i
+.PHONY : ventilador.cpp.i
+
+ventilador.s: ventilador.cpp.s
+.PHONY : ventilador.s
+
+# target to generate assembly for a file
+ventilador.cpp.s:
+	$(MAKE) -f CMakeFiles/ventilador.dir/build.make CMakeFiles/ventilador.dir/ventilador.cpp.s
+.PHONY : ventilador.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -372,6 +409,7 @@ help:
 	@echo "... piezacuna"
 	@echo "... rebuild_cache"
 	@echo "... soportegolf"
+	@echo "... ventilador"
 	@echo "... base.o"
 	@echo "... base.i"
 	@echo "... base.s"
@@ -393,6 +431,9 @@ help:
 	@echo "... soportegolf.o"
 	@echo "... soportegolf.i"
 	@echo "... soportegolf.s"
+	@echo "... ventilador.o"
+	@echo "... ventilador.i"
+	@echo "... ventilador.s"
 .PHONY : help
 
 

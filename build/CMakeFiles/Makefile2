@@ -298,6 +298,41 @@ clean: CMakeFiles/soportegolf.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/ventilador.dir
+
+# All Build rule for target.
+CMakeFiles/ventilador.dir/all:
+	$(MAKE) -f CMakeFiles/ventilador.dir/build.make CMakeFiles/ventilador.dir/depend
+	$(MAKE) -f CMakeFiles/ventilador.dir/build.make CMakeFiles/ventilador.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  8
+	@echo "Built target ventilador"
+.PHONY : CMakeFiles/ventilador.dir/all
+
+# Include target in all.
+all: CMakeFiles/ventilador.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ventilador.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ventilador.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 0
+.PHONY : CMakeFiles/ventilador.dir/rule
+
+# Convenience name for target.
+ventilador: CMakeFiles/ventilador.dir/rule
+.PHONY : ventilador
+
+# clean rule for target.
+CMakeFiles/ventilador.dir/clean:
+	$(MAKE) -f CMakeFiles/ventilador.dir/build.make CMakeFiles/ventilador.dir/clean
+.PHONY : CMakeFiles/ventilador.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ventilador.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.
