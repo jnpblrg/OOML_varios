@@ -44,7 +44,7 @@ int main()
 
             ;
 
-    Component ventilador = soporte_ventilador - soporte_ventilador_interior +(cilindro-cilindro_interior).translate(60,0,0)
+    Component ventilador = soporte_ventilador - soporte_ventilador_interior + (cilindro-cilindro_interior).translate(60,0,0)
 
             ;
 

@@ -1,6 +1,7 @@
 /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/base.dir
 /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/espejo.dir
 /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/palometa_baca.dir
+/home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/palored.dir
 /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/pastillero.dir
 /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/percha.dir
 /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles/piezacuna.dir

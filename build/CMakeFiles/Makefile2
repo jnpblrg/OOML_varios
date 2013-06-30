@@ -158,13 +158,48 @@ clean: CMakeFiles/palometa_baca.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/palored.dir
+
+# All Build rule for target.
+CMakeFiles/palored.dir/all:
+	$(MAKE) -f CMakeFiles/palored.dir/build.make CMakeFiles/palored.dir/depend
+	$(MAKE) -f CMakeFiles/palored.dir/build.make CMakeFiles/palored.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  4
+	@echo "Built target palored"
+.PHONY : CMakeFiles/palored.dir/all
+
+# Include target in all.
+all: CMakeFiles/palored.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/palored.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/palored.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 0
+.PHONY : CMakeFiles/palored.dir/rule
+
+# Convenience name for target.
+palored: CMakeFiles/palored.dir/rule
+.PHONY : palored
+
+# clean rule for target.
+CMakeFiles/palored.dir/clean:
+	$(MAKE) -f CMakeFiles/palored.dir/build.make CMakeFiles/palored.dir/clean
+.PHONY : CMakeFiles/palored.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/palored.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/pastillero.dir
 
 # All Build rule for target.
 CMakeFiles/pastillero.dir/all:
 	$(MAKE) -f CMakeFiles/pastillero.dir/build.make CMakeFiles/pastillero.dir/depend
 	$(MAKE) -f CMakeFiles/pastillero.dir/build.make CMakeFiles/pastillero.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  5
 	@echo "Built target pastillero"
 .PHONY : CMakeFiles/pastillero.dir/all
 
@@ -199,7 +234,7 @@ clean: CMakeFiles/pastillero.dir/clean
 CMakeFiles/percha.dir/all:
 	$(MAKE) -f CMakeFiles/percha.dir/build.make CMakeFiles/percha.dir/depend
 	$(MAKE) -f CMakeFiles/percha.dir/build.make CMakeFiles/percha.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  6
 	@echo "Built target percha"
 .PHONY : CMakeFiles/percha.dir/all
 
@@ -234,7 +269,7 @@ clean: CMakeFiles/percha.dir/clean
 CMakeFiles/piezacuna.dir/all:
 	$(MAKE) -f CMakeFiles/piezacuna.dir/build.make CMakeFiles/piezacuna.dir/depend
 	$(MAKE) -f CMakeFiles/piezacuna.dir/build.make CMakeFiles/piezacuna.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  7
 	@echo "Built target piezacuna"
 .PHONY : CMakeFiles/piezacuna.dir/all
 
@@ -269,7 +304,7 @@ clean: CMakeFiles/piezacuna.dir/clean
 CMakeFiles/soportegolf.dir/all:
 	$(MAKE) -f CMakeFiles/soportegolf.dir/build.make CMakeFiles/soportegolf.dir/depend
 	$(MAKE) -f CMakeFiles/soportegolf.dir/build.make CMakeFiles/soportegolf.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  8
 	@echo "Built target soportegolf"
 .PHONY : CMakeFiles/soportegolf.dir/all
 
@@ -304,7 +339,7 @@ clean: CMakeFiles/soportegolf.dir/clean
 CMakeFiles/ventilador.dir/all:
 	$(MAKE) -f CMakeFiles/ventilador.dir/build.make CMakeFiles/ventilador.dir/depend
 	$(MAKE) -f CMakeFiles/ventilador.dir/build.make CMakeFiles/ventilador.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  8
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  9
 	@echo "Built target ventilador"
 .PHONY : CMakeFiles/ventilador.dir/all
 

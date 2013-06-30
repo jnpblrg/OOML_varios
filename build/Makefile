@@ -138,6 +138,19 @@ palometa_baca/fast:
 .PHONY : palometa_baca/fast
 
 #=============================================================================
+# Target rules for targets named palored
+
+# Build rule for target.
+palored: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 palored
+.PHONY : palored
+
+# fast build rule for target.
+palored/fast:
+	$(MAKE) -f CMakeFiles/palored.dir/build.make CMakeFiles/palored.dir/build
+.PHONY : palored/fast
+
+#=============================================================================
 # Target rules for targets named pastillero
 
 # Build rule for target.
@@ -274,6 +287,30 @@ palometa_baca.cpp.s:
 	$(MAKE) -f CMakeFiles/palometa_baca.dir/build.make CMakeFiles/palometa_baca.dir/palometa_baca.cpp.s
 .PHONY : palometa_baca.cpp.s
 
+palored.o: palored.cpp.o
+.PHONY : palored.o
+
+# target to build an object file
+palored.cpp.o:
+	$(MAKE) -f CMakeFiles/palored.dir/build.make CMakeFiles/palored.dir/palored.cpp.o
+.PHONY : palored.cpp.o
+
+palored.i: palored.cpp.i
+.PHONY : palored.i
+
+# target to preprocess a source file
+palored.cpp.i:
+	$(MAKE) -f CMakeFiles/palored.dir/build.make CMakeFiles/palored.dir/palored.cpp.i
+.PHONY : palored.cpp.i
+
+palored.s: palored.cpp.s
+.PHONY : palored.s
+
+# target to generate assembly for a file
+palored.cpp.s:
+	$(MAKE) -f CMakeFiles/palored.dir/build.make CMakeFiles/palored.dir/palored.cpp.s
+.PHONY : palored.cpp.s
+
 pastillero.o: pastillero.cpp.o
 .PHONY : pastillero.o
 
@@ -404,6 +441,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... espejo"
 	@echo "... palometa_baca"
+	@echo "... palored"
 	@echo "... pastillero"
 	@echo "... percha"
 	@echo "... piezacuna"
@@ -419,6 +457,9 @@ help:
 	@echo "... palometa_baca.o"
 	@echo "... palometa_baca.i"
 	@echo "... palometa_baca.s"
+	@echo "... palored.o"
+	@echo "... palored.i"
+	@echo "... palored.s"
 	@echo "... pastillero.o"
 	@echo "... pastillero.i"
 	@echo "... pastillero.s"
