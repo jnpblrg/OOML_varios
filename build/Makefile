@@ -125,6 +125,19 @@ espejo/fast:
 .PHONY : espejo/fast
 
 #=============================================================================
+# Target rules for targets named gancho_lampara
+
+# Build rule for target.
+gancho_lampara: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gancho_lampara
+.PHONY : gancho_lampara
+
+# fast build rule for target.
+gancho_lampara/fast:
+	$(MAKE) -f CMakeFiles/gancho_lampara.dir/build.make CMakeFiles/gancho_lampara.dir/build
+.PHONY : gancho_lampara/fast
+
+#=============================================================================
 # Target rules for targets named palometa_baca
 
 # Build rule for target.
@@ -262,6 +275,30 @@ espejo.s: espejo.cpp.s
 espejo.cpp.s:
 	$(MAKE) -f CMakeFiles/espejo.dir/build.make CMakeFiles/espejo.dir/espejo.cpp.s
 .PHONY : espejo.cpp.s
+
+gancho_lampara.o: gancho_lampara.cpp.o
+.PHONY : gancho_lampara.o
+
+# target to build an object file
+gancho_lampara.cpp.o:
+	$(MAKE) -f CMakeFiles/gancho_lampara.dir/build.make CMakeFiles/gancho_lampara.dir/gancho_lampara.cpp.o
+.PHONY : gancho_lampara.cpp.o
+
+gancho_lampara.i: gancho_lampara.cpp.i
+.PHONY : gancho_lampara.i
+
+# target to preprocess a source file
+gancho_lampara.cpp.i:
+	$(MAKE) -f CMakeFiles/gancho_lampara.dir/build.make CMakeFiles/gancho_lampara.dir/gancho_lampara.cpp.i
+.PHONY : gancho_lampara.cpp.i
+
+gancho_lampara.s: gancho_lampara.cpp.s
+.PHONY : gancho_lampara.s
+
+# target to generate assembly for a file
+gancho_lampara.cpp.s:
+	$(MAKE) -f CMakeFiles/gancho_lampara.dir/build.make CMakeFiles/gancho_lampara.dir/gancho_lampara.cpp.s
+.PHONY : gancho_lampara.cpp.s
 
 palometa_baca.o: palometa_baca.cpp.o
 .PHONY : palometa_baca.o
@@ -440,6 +477,7 @@ help:
 	@echo "... base"
 	@echo "... edit_cache"
 	@echo "... espejo"
+	@echo "... gancho_lampara"
 	@echo "... palometa_baca"
 	@echo "... palored"
 	@echo "... pastillero"
@@ -454,6 +492,9 @@ help:
 	@echo "... espejo.o"
 	@echo "... espejo.i"
 	@echo "... espejo.s"
+	@echo "... gancho_lampara.o"
+	@echo "... gancho_lampara.i"
+	@echo "... gancho_lampara.s"
 	@echo "... palometa_baca.o"
 	@echo "... palometa_baca.i"
 	@echo "... palometa_baca.s"

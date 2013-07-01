@@ -43,6 +43,7 @@ SET(CMAKE_MAKEFILE_PRODUCTS
 SET(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/base.dir/DependInfo.cmake"
   "CMakeFiles/espejo.dir/DependInfo.cmake"
+  "CMakeFiles/gancho_lampara.dir/DependInfo.cmake"
   "CMakeFiles/palometa_baca.dir/DependInfo.cmake"
   "CMakeFiles/palored.dir/DependInfo.cmake"
   "CMakeFiles/pastillero.dir/DependInfo.cmake"

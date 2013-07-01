@@ -123,13 +123,48 @@ clean: CMakeFiles/espejo.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/gancho_lampara.dir
+
+# All Build rule for target.
+CMakeFiles/gancho_lampara.dir/all:
+	$(MAKE) -f CMakeFiles/gancho_lampara.dir/build.make CMakeFiles/gancho_lampara.dir/depend
+	$(MAKE) -f CMakeFiles/gancho_lampara.dir/build.make CMakeFiles/gancho_lampara.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  3
+	@echo "Built target gancho_lampara"
+.PHONY : CMakeFiles/gancho_lampara.dir/all
+
+# Include target in all.
+all: CMakeFiles/gancho_lampara.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gancho_lampara.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gancho_lampara.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles 0
+.PHONY : CMakeFiles/gancho_lampara.dir/rule
+
+# Convenience name for target.
+gancho_lampara: CMakeFiles/gancho_lampara.dir/rule
+.PHONY : gancho_lampara
+
+# clean rule for target.
+CMakeFiles/gancho_lampara.dir/clean:
+	$(MAKE) -f CMakeFiles/gancho_lampara.dir/build.make CMakeFiles/gancho_lampara.dir/clean
+.PHONY : CMakeFiles/gancho_lampara.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/gancho_lampara.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/palometa_baca.dir
 
 # All Build rule for target.
 CMakeFiles/palometa_baca.dir/all:
 	$(MAKE) -f CMakeFiles/palometa_baca.dir/build.make CMakeFiles/palometa_baca.dir/depend
 	$(MAKE) -f CMakeFiles/palometa_baca.dir/build.make CMakeFiles/palometa_baca.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  4
 	@echo "Built target palometa_baca"
 .PHONY : CMakeFiles/palometa_baca.dir/all
 
@@ -164,7 +199,7 @@ clean: CMakeFiles/palometa_baca.dir/clean
 CMakeFiles/palored.dir/all:
 	$(MAKE) -f CMakeFiles/palored.dir/build.make CMakeFiles/palored.dir/depend
 	$(MAKE) -f CMakeFiles/palored.dir/build.make CMakeFiles/palored.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  5
 	@echo "Built target palored"
 .PHONY : CMakeFiles/palored.dir/all
 
@@ -199,7 +234,7 @@ clean: CMakeFiles/palored.dir/clean
 CMakeFiles/pastillero.dir/all:
 	$(MAKE) -f CMakeFiles/pastillero.dir/build.make CMakeFiles/pastillero.dir/depend
 	$(MAKE) -f CMakeFiles/pastillero.dir/build.make CMakeFiles/pastillero.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  5
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  6
 	@echo "Built target pastillero"
 .PHONY : CMakeFiles/pastillero.dir/all
 
@@ -234,7 +269,7 @@ clean: CMakeFiles/pastillero.dir/clean
 CMakeFiles/percha.dir/all:
 	$(MAKE) -f CMakeFiles/percha.dir/build.make CMakeFiles/percha.dir/depend
 	$(MAKE) -f CMakeFiles/percha.dir/build.make CMakeFiles/percha.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  6
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  7
 	@echo "Built target percha"
 .PHONY : CMakeFiles/percha.dir/all
 
@@ -269,7 +304,7 @@ clean: CMakeFiles/percha.dir/clean
 CMakeFiles/piezacuna.dir/all:
 	$(MAKE) -f CMakeFiles/piezacuna.dir/build.make CMakeFiles/piezacuna.dir/depend
 	$(MAKE) -f CMakeFiles/piezacuna.dir/build.make CMakeFiles/piezacuna.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  7
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  8
 	@echo "Built target piezacuna"
 .PHONY : CMakeFiles/piezacuna.dir/all
 
@@ -304,7 +339,7 @@ clean: CMakeFiles/piezacuna.dir/clean
 CMakeFiles/soportegolf.dir/all:
 	$(MAKE) -f CMakeFiles/soportegolf.dir/build.make CMakeFiles/soportegolf.dir/depend
 	$(MAKE) -f CMakeFiles/soportegolf.dir/build.make CMakeFiles/soportegolf.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  8
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  9
 	@echo "Built target soportegolf"
 .PHONY : CMakeFiles/soportegolf.dir/all
 
@@ -339,7 +374,7 @@ clean: CMakeFiles/soportegolf.dir/clean
 CMakeFiles/ventilador.dir/all:
 	$(MAKE) -f CMakeFiles/ventilador.dir/build.make CMakeFiles/ventilador.dir/depend
 	$(MAKE) -f CMakeFiles/ventilador.dir/build.make CMakeFiles/ventilador.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  9
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/juanpa/ooml_varios/OOML_varios/build/CMakeFiles  10
 	@echo "Built target ventilador"
 .PHONY : CMakeFiles/ventilador.dir/all
 
