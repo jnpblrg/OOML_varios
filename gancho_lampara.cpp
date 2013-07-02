@@ -12,11 +12,11 @@ int main()
         double largoA, largoB, largoC, largoD, largoE, alto, ancho;
         largoA = 25;
         largoB = 16;
-        largoC = 10;
+        largoC = 8;
         largoD = 9;
         largoE = 6;
         alto = 12;
-        ancho = 2.2;
+        ancho = 2.1;
 
     Component gancho_lampara =
             Cube(largoA,ancho,alto) //A
@@ -33,7 +33,12 @@ int main()
             - Cylinder (ancho/2-0.2,alto+2).translate(-18.2,20.4,0) // /  \/
             - Cylinder (ancho/2-0.2,alto+2).translate(-17.5,20.1,0)
             - Cylinder (ancho/2-0.2,alto+2).translate(-17,20.1,0)
-            + Cube(5,ancho,alto).translate(-6,-0.3,0).rotate(0,0,-10)
+            + Cube(5,ancho,alto).translate(-6,-0.3,0).rotate(0,0,-10) //pestana
+            - Cylinder (ancho/2-0.2,alto+2).translate(12.5,-1.8,0)  //Cilindros agujero A-C
+            - Cylinder (ancho/2-0.2,alto+2).translate(12,-2,0) //////  ||
+            - Cylinder (ancho/2,alto+2).translate(11.5,-2.1,0) // /    \/
+            - Cylinder (ancho/2+0.2,alto+2).translate(11,-2.2,0)
+            - Cylinder (ancho/2+0.4,alto+2).translate(10.5,-2.4,0)
             ;
 
 
