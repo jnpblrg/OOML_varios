@@ -39,6 +39,8 @@ int main()
             - Cylinder (ancho/2,alto+2).translate(11.5,-2.1,0) // /    \/
             - Cylinder (ancho/2+0.2,alto+2).translate(11,-2.2,0)
             - Cylinder (ancho/2+0.4,alto+2).translate(10.5,-2.4,0)
+            - Cube(5,10,alto+2).translate(2,-10,8).rotate(0,30,10) //redondeo superior
+            - Cube(5,10,alto+2).translate(2,-10,-10).rotate(0,-30,10) //redondeo inferior
             ;
 
 
