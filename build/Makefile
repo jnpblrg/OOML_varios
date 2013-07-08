@@ -203,6 +203,19 @@ piezacuna/fast:
 .PHONY : piezacuna/fast
 
 #=============================================================================
+# Target rules for targets named soporte_especias
+
+# Build rule for target.
+soporte_especias: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 soporte_especias
+.PHONY : soporte_especias
+
+# fast build rule for target.
+soporte_especias/fast:
+	$(MAKE) -f CMakeFiles/soporte_especias.dir/build.make CMakeFiles/soporte_especias.dir/build
+.PHONY : soporte_especias/fast
+
+#=============================================================================
 # Target rules for targets named soportegolf
 
 # Build rule for target.
@@ -420,6 +433,30 @@ piezacuna.cpp.s:
 	$(MAKE) -f CMakeFiles/piezacuna.dir/build.make CMakeFiles/piezacuna.dir/piezacuna.cpp.s
 .PHONY : piezacuna.cpp.s
 
+soporte_especias.o: soporte_especias.cpp.o
+.PHONY : soporte_especias.o
+
+# target to build an object file
+soporte_especias.cpp.o:
+	$(MAKE) -f CMakeFiles/soporte_especias.dir/build.make CMakeFiles/soporte_especias.dir/soporte_especias.cpp.o
+.PHONY : soporte_especias.cpp.o
+
+soporte_especias.i: soporte_especias.cpp.i
+.PHONY : soporte_especias.i
+
+# target to preprocess a source file
+soporte_especias.cpp.i:
+	$(MAKE) -f CMakeFiles/soporte_especias.dir/build.make CMakeFiles/soporte_especias.dir/soporte_especias.cpp.i
+.PHONY : soporte_especias.cpp.i
+
+soporte_especias.s: soporte_especias.cpp.s
+.PHONY : soporte_especias.s
+
+# target to generate assembly for a file
+soporte_especias.cpp.s:
+	$(MAKE) -f CMakeFiles/soporte_especias.dir/build.make CMakeFiles/soporte_especias.dir/soporte_especias.cpp.s
+.PHONY : soporte_especias.cpp.s
+
 soportegolf.o: soportegolf.cpp.o
 .PHONY : soportegolf.o
 
@@ -484,6 +521,7 @@ help:
 	@echo "... percha"
 	@echo "... piezacuna"
 	@echo "... rebuild_cache"
+	@echo "... soporte_especias"
 	@echo "... soportegolf"
 	@echo "... ventilador"
 	@echo "... base.o"
@@ -510,6 +548,9 @@ help:
 	@echo "... piezacuna.o"
 	@echo "... piezacuna.i"
 	@echo "... piezacuna.s"
+	@echo "... soporte_especias.o"
+	@echo "... soporte_especias.i"
+	@echo "... soporte_especias.s"
 	@echo "... soportegolf.o"
 	@echo "... soportegolf.i"
 	@echo "... soportegolf.s"

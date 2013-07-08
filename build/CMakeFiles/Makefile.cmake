@@ -8,9 +8,9 @@ SET(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "CMakeFiles/CMakeCCompiler.cmake"
-  "CMakeFiles/CMakeCXXCompiler.cmake"
-  "CMakeFiles/CMakeSystem.cmake"
+  "CMakeFiles/2.8.10.1/CMakeCCompiler.cmake"
+  "CMakeFiles/2.8.10.1/CMakeCXXCompiler.cmake"
+  "CMakeFiles/2.8.10.1/CMakeSystem.cmake"
   "/usr/share/cmake-2.8/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-2.8/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake"
@@ -49,6 +49,7 @@ SET(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/pastillero.dir/DependInfo.cmake"
   "CMakeFiles/percha.dir/DependInfo.cmake"
   "CMakeFiles/piezacuna.dir/DependInfo.cmake"
+  "CMakeFiles/soporte_especias.dir/DependInfo.cmake"
   "CMakeFiles/soportegolf.dir/DependInfo.cmake"
   "CMakeFiles/ventilador.dir/DependInfo.cmake"
   )
